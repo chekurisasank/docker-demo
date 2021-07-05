@@ -5,6 +5,6 @@ ADD . /app
 RUN apt-get update && \
       apt-get -y install sudo
 
-RUN sudo npm install
+RUN  npm install
 EXPOSE 3000
 CMD npm start
